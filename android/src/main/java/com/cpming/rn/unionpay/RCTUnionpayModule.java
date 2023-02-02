@@ -13,6 +13,11 @@ import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;
 import com.facebook.react.bridge.WritableMap;
 import com.facebook.react.modules.core.DeviceEventManagerModule;
+import com.chinaums.pppay.unify.SocketFactory;
+import com.chinaums.pppay.unify.UnifyMd5;
+import com.chinaums.pppay.unify.UnifyPayListener;
+import com.chinaums.pppay.unify.UnifyPayPlugin;
+import com.chinaums.pppay.unify.UnifyPayRequest;
 import com.unionpay.UPPayAssistEx;
 import com.unionpay.UPQuerySEPayInfoCallback;
 import com.unionpay.UPSEInfoResp;
@@ -102,6 +107,30 @@ public class RCTUnionpayModule extends ReactContextBaseJavaModule implements Act
     @ReactMethod
     public void startPay(String tn, String mode) {
         UPPayAssistEx.startPay(getCurrentActivity(), null, null, tn, mode);
+    }
+
+    /**
+    * 支付宝小程序支付方式
+    * @param appPayRequest
+    */
+    @ReactMethod
+    private void payAliPayMiniPro(String appPayRequest){
+        UnifyPayRequest msg = new UnifyPayRequest();
+        msg.payChannel = UnifyPayRequest.CHANNEL_ALIPAY_MINI_PROGRAM;
+        msg.payData = appPayRequest;
+        UnifyPayPlugin.getInstance(getCurrentActivity()).sendPayRequest(msg);
+    }
+
+    /**
+     * 微信支付
+     * @param appPayRequest
+     */
+    @ReactMethod
+    private void payWX(String appPayRequest){
+        UnifyPayRequest msg = new UnifyPayRequest();
+        msg.payChannel = UnifyPayRequest.CHANNEL_WEIXIN;
+        msg.payData = appPayRequest;
+        UnifyPayPlugin.getInstance(getCurrentActivity()).sendPayRequest(msg);
     }
 
     /**

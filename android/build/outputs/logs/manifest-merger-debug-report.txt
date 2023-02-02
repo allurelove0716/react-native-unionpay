@@ -1,0 +1,177 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:1:1-75:12
+INJECTED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:1:1-75:12
+INJECTED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:1:1-75:12
+INJECTED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:1:1-75:12
+INJECTED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:1:1-75:12
+INJECTED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:1:1-75:12
+INJECTED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:1:1-75:12
+	package
+		ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:2:5-37
+		INJECTED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml
+		INJECTED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml
+		ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:1:1-75:12
+		INJECTED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml
+		ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:1:1-75:12
+		INJECTED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:4:5-76
+	android:name
+		ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:4:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:5:5-79
+	android:name
+		ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:5:22-76
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:6:5-76
+	android:name
+		ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:6:22-73
+uses-permission#android.permission.INTERNET
+ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:7:5-67
+	android:name
+		ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:7:22-64
+uses-permission#android.permission.WAKE_LOCK
+ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:8:5-68
+	android:name
+		ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:8:22-65
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:9:22-78
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:10:22-76
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:14:5-75
+	android:name
+		ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:14:22-72
+uses-permission#android.permission.NFC
+ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:16:5-62
+	android:name
+		ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:16:22-59
+uses-permission#org.simalliance.openmobileapi.SMARTCARD
+ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:17:5-79
+	android:name
+		ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:17:22-76
+uses-feature#android.hardware.nfc.hce
+ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:19:5-61
+	android:name
+		ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:19:19-58
+queries
+ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:21:5-26:15
+package#com.eg.android.AlipayGphone
+ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:22:9-63
+	android:name
+		ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:22:18-60
+package#com.unionpay
+ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:23:9-48
+	android:name
+		ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:23:18-45
+package#com.tencent.mm
+ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:24:9-50
+	android:name
+		ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:24:18-47
+package#com.ecitic.bank.mobile
+ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:25:9-58
+	android:name
+		ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:25:18-55
+application
+ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:28:5-74:19
+uses-library#org.apache.http.legacy
+ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:30:9-32:40
+	android:required
+		ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:31:13-50
+meta-data#CurrentEnvironment
+ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:34:9-37:21
+	android:value
+		ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:36:13-33
+	android:name
+		ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:35:13-46
+meta-data#PPPaySDK
+ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:38:9-40:36
+	android:value
+		ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:40:13-33
+	android:name
+		ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:39:13-36
+uses-library#org.simalliance.openmobileapi
+ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:42:9-44:40
+	android:required
+		ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:44:13-37
+	android:name
+		ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:43:13-57
+activity#com.unionpay.uppay.PayActivity
+ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:46:9-53:58
+	android:screenOrientation
+		ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:51:13-49
+	android:label
+		ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:50:13-45
+	android:excludeFromRecents
+		ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:49:13-46
+	android:windowSoftInputMode
+		ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:53:13-55
+	android:configChanges
+		ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:48:13-63
+	android:theme
+		ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:52:13-56
+	android:name
+		ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:47:13-58
+activity#com.unionpay.UPPayWapActivity
+ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:54:9-59:58
+	android:screenOrientation
+		ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:57:13-49
+	android:windowSoftInputMode
+		ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:59:13-55
+	android:configChanges
+		ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:56:13-63
+	android:theme
+		ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:58:13-56
+	android:name
+		ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:55:13-57
+activity#com.cpming.rn.unionpay.wxapi.WXEntryActivity
+ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:61:9-66:72
+	android:launchMode
+		ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:64:13-44
+	android:exported
+		ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:63:13-36
+	android:theme
+		ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:66:13-69
+	android:taskAffinity
+		ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:65:13-62
+	android:name
+		ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:62:13-50
+activity#com.cpming.rn.unionpay.WebActivity
+ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:68:9-73:72
+	android:launchMode
+		ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:71:13-44
+	android:exported
+		ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:70:13-36
+	android:theme
+		ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:73:13-69
+	android:taskAffinity
+		ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:72:13-62
+	android:name
+		ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:69:13-40
+uses-sdk
+INJECTED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml
+INJECTED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml
+INJECTED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml
+INJECTED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml
+		ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml
+		INJECTED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml
+		ADDED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml
+		INJECTED from D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml

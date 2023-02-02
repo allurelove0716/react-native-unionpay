@@ -1,0 +1,160 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.cpming.rn.unionpay"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+11-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:4:5-76
+11-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:4:22-73
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:5:5-79
+12-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:5:22-76
+13    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+13-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:6:5-76
+13-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:6:22-73
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:7:5-67
+14-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:7:22-64
+15    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- 在SDCard中创建与删除文件权限 -->
+15-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:8:5-68
+15-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:8:22-65
+16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- Optional for location -->
+16-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:9:5-81
+16-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:9:22-78
+17    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+17-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:10:5-79
+17-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:10:22-76
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:5:5-79
+18-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:5:22-76
+19    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+19-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:10:5-79
+19-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:10:22-76
+20    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+20-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:9:5-81
+20-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:9:22-78
+21    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+21-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:14:5-75
+21-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:14:22-72
+22    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+22-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:4:5-76
+22-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:4:22-73
+23    <uses-permission android:name="android.permission.NFC" />
+23-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:16:5-62
+23-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:16:22-59
+24    <uses-permission android:name="org.simalliance.openmobileapi.SMARTCARD" />
+24-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:17:5-79
+24-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:17:22-76
+25
+26    <uses-feature android:name="android.hardware.nfc.hce" />
+26-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:19:5-61
+26-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:19:19-58
+27
+28    <queries>
+28-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:21:5-26:15
+29        <package android:name="com.eg.android.AlipayGphone" />
+29-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:22:9-63
+29-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:22:18-60
+30        <package android:name="com.unionpay" />
+30-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:23:9-48
+30-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:23:18-45
+31        <package android:name="com.tencent.mm" />
+31-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:24:9-50
+31-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:24:18-47
+32        <package android:name="com.ecitic.bank.mobile" />
+32-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:25:9-58
+32-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:25:18-55
+33    </queries>
+34
+35    <application>
+35-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:28:5-74:19
+36        <uses-library
+36-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:30:9-32:40
+37            android:name="org.apache.http.legacy"
+37-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:31:13-50
+38            android:required="false" />
+38-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:32:13-37
+39
+40        <meta-data
+40-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:34:9-37:21
+41            android:name="CurrentEnvironment"
+41-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:35:13-46
+42            android:value="PROD" > <!-- PROD or TEST -->
+42-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:36:13-33
+43        </meta-data>
+44        <meta-data
+44-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:38:9-40:36
+45            android:name="PPPaySDK"
+45-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:39:13-36
+46            android:value="true" />
+46-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:40:13-33
+47
+48        <uses-library
+48-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:42:9-44:40
+49            android:name="org.simalliance.openmobileapi"
+49-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:43:13-57
+50            android:required="false" />
+50-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:44:13-37
+51
+52        <activity
+52-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:46:9-53:58
+53            android:name="com.unionpay.uppay.PayActivity"
+53-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:47:13-58
+54            android:configChanges="orientation|keyboardHidden"
+54-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:48:13-63
+55            android:excludeFromRecents="true"
+55-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:49:13-46
+56            android:label="@string/app_name"
+56-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:50:13-45
+57            android:screenOrientation="portrait"
+57-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:51:13-49
+58            android:theme="@android:style/Theme.Dialog"
+58-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:52:13-56
+59            android:windowSoftInputMode="adjustResize" />
+59-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:53:13-55
+60        <activity
+60-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:54:9-59:58
+61            android:name="com.unionpay.UPPayWapActivity"
+61-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:55:13-57
+62            android:configChanges="orientation|keyboardHidden"
+62-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:56:13-63
+63            android:screenOrientation="portrait"
+63-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:57:13-49
+64            android:theme="@android:style/Theme.Dialog"
+64-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:58:13-56
+65            android:windowSoftInputMode="adjustResize" />
+65-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:59:13-55
+66        <activity
+66-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:61:9-66:72
+67            android:name="com.cpming.rn.unionpay.wxapi.WXEntryActivity"
+67-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:62:13-50
+68            android:exported="true"
+68-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:63:13-36
+69            android:launchMode="singleTask"
+69-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:64:13-44
+70            android:taskAffinity="com.chinaums.onlineservice"
+70-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:65:13-62
+71            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+71-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:66:13-69
+72        <activity
+72-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:68:9-73:72
+73            android:name="com.cpming.rn.unionpay.WebActivity"
+73-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:69:13-40
+74            android:exported="true"
+74-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:70:13-36
+75            android:launchMode="singleTask"
+75-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:71:13-44
+76            android:taskAffinity="com.chinaums.onlineservice"
+76-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:72:13-62
+77            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+77-->D:\JavaProgram\reactNativeSpace\yn-scm-app\node_modules\react-native-china-unionpay\android\src\main\AndroidManifest.xml:73:13-69
+78    </application>
+79
+80</manifest>

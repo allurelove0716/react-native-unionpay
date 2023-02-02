@@ -13,6 +13,22 @@ class Api {
     }
 
     /**
+     * 支付宝小程序支付
+     * @param {*} appPayRequest 
+     */
+    payAliPayMiniPro(appPayRequest){
+        UnionPayModule.payAliPayMiniPro(appPayRequest);
+    }
+
+    /**
+     * 微信支付
+     * @param {*} appPayRequest 
+     */
+    payWX(appPayRequest){
+        UnionPayModule.payWX(appPayRequest);
+    }
+
+    /**
      * 指定手机 pay 支付接口
      * @param  {[type]} tn:     string        交易流水号
      * @param  {[type]} mode:   string        连接环境："00" - 银联正式环境 "01" - 银联测试环境，该环境中不发生真实交易
