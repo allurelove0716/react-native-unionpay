@@ -1,6 +1,6 @@
 
 #import <React/RCTBridgeModule.h>
-#import "RCTEventEmitter.h"
+#import <React/RCTEventEmitter.h>
 
 @interface RNUnionpay : RCTEventEmitter <RCTBridgeModule>
 

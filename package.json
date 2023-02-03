@@ -1,7 +1,7 @@
 {
   "name": "react-native-china-unionpay",
   "version": "1.0.0",
-  "description": "",
+  "description": "react-native-china-unionpay",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -20,7 +20,7 @@
     "中国银联支付"
   ],
   "author": "caipeiming",
-  "homepage": "https://github.com/caipeiming/react-native-china-unionpay.git",
+  "homepage": "https://github.com/allurelove0716/react-native-unionpay.git",
   "license": "MIT",
   "peerDependencies": {
     "react-native": "^0.41.2"

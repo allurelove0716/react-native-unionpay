@@ -1,6 +1,11 @@
 
 #import "RNUnionpay.h"
+#import "UMSPPPayUnifyPayPlugin.h"
+#import "UMSPPPayPluginSettings.h"
 #import "UPPaymentControl.h"
+#import "UnifyPayOrderRequestManager.h"
+#import "UnifyPayTool.h"
+
 
 @implementation RNUnionpay
 
@@ -28,6 +33,13 @@
 - (NSArray<NSString *> *)supportedEvents
 {
     return @[@"UnionPayResponse"];
+}
+
+- (void)showAlertWithTitle:(NSString *)title {
+    if (title.length > 0) {
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:title message:nil delegate:self cancelButtonTitle:@"确认" otherButtonTitles:nil, nil];
+        [alert show];
+    }
 }
 
 - (BOOL)handleOpenURL:(NSNotification *)aNotification
@@ -80,6 +92,37 @@ RCT_EXPORT_METHOD(startPay:(NSString*)tn :(NSString*)mode)
                                          viewController:rootViewController];
         });
     }
+}
+
+RCT_EXPORT_METHOD(payAliPayMiniPro:(NSString*)appPayRequest)
+{
+    NSString *payDataJsonStr = [[NSString alloc] initWithData:[NSJSONSerialization dataWithJSONObject:appPayRequest options:NSJSONWritingPrettyPrinted error:nil] encoding:NSUTF8StringEncoding];
+        // [UMSPPPayUnifyPayPlugin payWithPayChannel:@"CHANNEL_ALIMINIPAY" payData:payDataJsonStr callbackBlock:^(NSString *resultCode, NSString *resultInfo) {
+        //     [self showAlertWithTitle:[NSString stringWithFormat:@"resultCode = %@\nresultInfo = %@", resultCode, resultInfo]];
+
+        // }];
+    // UnifyPayOrderRequestManager *requestManager = [[UnifyPayOrderRequestManager alloc] init];
+    // requestManager.payChannel =unifyPayChannelAliMiniProgramPay ;
+
+
+    // [UnifyPayTool showHUD:self.view animated:YES];
+    // __weak __typeof__(self) weakSelf = self;
+    // [requestManager sendOrderRequestWithPostData:[requestManager packToData] successHandler:^(NSDictionary *response) {
+        
+    //     __strong __typeof__(self) strongSelf = weakSelf;
+    //     [UnifyPayTool hideHUD:strongSelf.view animated:YES];
+    //     NSLog(@"\nresponse = %@", response);
+    //     if ([response[@"errCode"] isEqualToString:@"SUCCESS"]) {
+    //         [strongSelf sendPayRequestWithResponse:response];
+    //     } else {
+    //         [strongSelf showAlertWithTitle:response[@"errMsg"]];
+    //     }
+    // } failHandler:^{
+        
+    //     __strong __typeof__(self) strongSelf = weakSelf;
+    //     [UnifyPayTool hideHUD:strongSelf.view animated:YES];
+    //     [strongSelf showAlertWithTitle:@"下单请求失败"];
+    // }];
 }
 
 

@@ -13,6 +13,22 @@ class Api {
     }
 
     /**
+     * 支付宝小程序支付
+     * @param {*} appPayRequest 
+     */
+     payAliPayMiniPro(appPayRequest){
+        UnionPayModule.payAliPayMiniPro(appPayRequest);
+    }
+
+    /**
+     * 微信支付
+     * @param {*} appPayRequest 
+     */
+    payWX(appPayRequest){
+        UnionPayModule.payWX(appPayRequest);
+    }
+
+    /**
      * 检查是否安装银联 App 的接口
      * @return {[type]} Promise
      */

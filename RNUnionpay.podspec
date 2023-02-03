@@ -8,12 +8,12 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author       = { "author" => "caipeiming" }
   s.platform     = :ios, "8.0"
-  s.source       = { :git => "https://github.com/caipeiming/react-native-china-unionpay.git", :tag => "master" }
+  s.source       = { :git => "https://github.com/allurelove0716/react-native-unionpay.git", :tag => "master" }
   s.source_files = "ios/RNUnionpay/**/*.{h,m}"
   s.requires_arc = true
   s.frameworks   = 'CFNetwork','SystemConfiguration'
   s.libraries    = 'z'
-  s.vendored_libraries = "ios/RNUnionpay/paymentcontrol/*.a"
+  s.vendored_libraries = "ios/RNUnionpay/ThirdPartyPaySDK/*.a"
 
   s.dependency "React"
 
