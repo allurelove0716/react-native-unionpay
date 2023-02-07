@@ -8,8 +8,8 @@ class Api {
      * @param  {[type]} tn:   string        交易流水号
      * @param  {[type]} mode: string        连接环境："00" - 银联正式环境 "01" - 银联测试环境，该环境中不发生真实交易
      */
-    startPay(tn: string, mode: string) {
-        UnionPayModule.startPay(tn, mode);
+    startPay(appPayRequest) {
+        return UnionPayModule.startPay(appPayRequest);
     }
 
     /**
@@ -17,7 +17,7 @@ class Api {
      * @param {*} appPayRequest 
      */
      payAliPayMiniPro(appPayRequest){
-        UnionPayModule.payAliPayMiniPro(appPayRequest);
+        return UnionPayModule.payAliPayMiniPro(appPayRequest);
     }
 
     /**
@@ -25,7 +25,7 @@ class Api {
      * @param {*} appPayRequest 
      */
     payWX(appPayRequest){
-        UnionPayModule.payWX(appPayRequest);
+        return UnionPayModule.payWX(appPayRequest);
     }
 
     /**

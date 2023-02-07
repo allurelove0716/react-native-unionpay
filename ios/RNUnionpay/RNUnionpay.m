@@ -3,8 +3,6 @@
 #import "UMSPPPayUnifyPayPlugin.h"
 #import "UMSPPPayPluginSettings.h"
 #import "UPPaymentControl.h"
-#import "UnifyPayOrderRequestManager.h"
-#import "UnifyPayTool.h"
 
 
 @implementation RNUnionpay
@@ -33,13 +31,6 @@
 - (NSArray<NSString *> *)supportedEvents
 {
     return @[@"UnionPayResponse"];
-}
-
-- (void)showAlertWithTitle:(NSString *)title {
-    if (title.length > 0) {
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:title message:nil delegate:self cancelButtonTitle:@"确认" otherButtonTitles:nil, nil];
-        [alert show];
-    }
 }
 
 - (BOOL)handleOpenURL:(NSNotification *)aNotification
@@ -80,49 +71,47 @@
 
 RCT_EXPORT_MODULE(UnionPayModule)
 
-RCT_EXPORT_METHOD(startPay:(NSString*)tn :(NSString*)mode)
+/**
+ 云闪付支付
+ */
+RCT_EXPORT_METHOD(startPay:(NSString*)appPayRequest :(RCTPromiseResolveBlock)resolve :(RCTPromiseRejectBlock)reject)
 {
-    //当获得的tn不为空时，调用支付接口
-    if (tn != nil && tn.length > 0){
-        dispatch_async(dispatch_get_main_queue(), ^(void) {
-            UIWindow *window = [UIApplication sharedApplication].keyWindow;
-            UIViewController *rootViewController = window.rootViewController;
-            [[UPPaymentControl defaultControl] startPay:tn
-                                             fromScheme:self.schemeStr mode:mode
-                                         viewController:rootViewController];
-        });
-    }
+    UIWindow *window = [UIApplication sharedApplication].keyWindow;
+    UIViewController *rootViewController = window.rootViewController;
+    [UMSPPPayUnifyPayPlugin cloudPayWithURLSchemes:@"com.aishion.app"payData:appPayRequest
+     viewController:rootViewController
+     callbackBlock:^(NSString *resultCode, NSString *resultInfo) {
+        NSDictionary * dict = @{@"resultCode":resultCode,@"resultInfo":resultInfo};
+        NSData * data = [NSJSONSerialization dataWithJSONObject:dict options:NSJSONWritingPrettyPrinted error:nil];
+        NSString *jsonStr = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+        resolve(jsonStr);
+     }];
 }
 
-RCT_EXPORT_METHOD(payAliPayMiniPro:(NSString*)appPayRequest)
+/**
+ 支付宝小程序支付下单
+ */
+RCT_EXPORT_METHOD(payAliPayMiniPro:(NSString*)appPayRequest:(RCTPromiseResolveBlock)resolve :(RCTPromiseRejectBlock)reject)
 {
-    NSString *payDataJsonStr = [[NSString alloc] initWithData:[NSJSONSerialization dataWithJSONObject:appPayRequest options:NSJSONWritingPrettyPrinted error:nil] encoding:NSUTF8StringEncoding];
-        // [UMSPPPayUnifyPayPlugin payWithPayChannel:@"CHANNEL_ALIMINIPAY" payData:payDataJsonStr callbackBlock:^(NSString *resultCode, NSString *resultInfo) {
-        //     [self showAlertWithTitle:[NSString stringWithFormat:@"resultCode = %@\nresultInfo = %@", resultCode, resultInfo]];
+         [UMSPPPayUnifyPayPlugin payWithPayChannel:CHANNEL_ALIMINIPAY payData:appPayRequest callbackBlock:^(NSString *resultCode, NSString *resultInfo) {
+             NSDictionary * dict = @{@"resultCode":resultCode,@"resultInfo":resultInfo};
+             NSData * data = [NSJSONSerialization dataWithJSONObject:dict options:NSJSONWritingPrettyPrinted error:nil];
+             NSString *jsonStr = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+             resolve(jsonStr);
+         }];
+}
 
-        // }];
-    // UnifyPayOrderRequestManager *requestManager = [[UnifyPayOrderRequestManager alloc] init];
-    // requestManager.payChannel =unifyPayChannelAliMiniProgramPay ;
-
-
-    // [UnifyPayTool showHUD:self.view animated:YES];
-    // __weak __typeof__(self) weakSelf = self;
-    // [requestManager sendOrderRequestWithPostData:[requestManager packToData] successHandler:^(NSDictionary *response) {
-        
-    //     __strong __typeof__(self) strongSelf = weakSelf;
-    //     [UnifyPayTool hideHUD:strongSelf.view animated:YES];
-    //     NSLog(@"\nresponse = %@", response);
-    //     if ([response[@"errCode"] isEqualToString:@"SUCCESS"]) {
-    //         [strongSelf sendPayRequestWithResponse:response];
-    //     } else {
-    //         [strongSelf showAlertWithTitle:response[@"errMsg"]];
-    //     }
-    // } failHandler:^{
-        
-    //     __strong __typeof__(self) strongSelf = weakSelf;
-    //     [UnifyPayTool hideHUD:strongSelf.view animated:YES];
-    //     [strongSelf showAlertWithTitle:@"下单请求失败"];
-    // }];
+/**
+ 微信支付
+ */
+RCT_EXPORT_METHOD(payWX:(NSString*)appPayRequest:(RCTPromiseResolveBlock)resolve :(RCTPromiseRejectBlock)reject)
+{
+         [UMSPPPayUnifyPayPlugin payWithPayChannel:CHANNEL_WEIXIN payData:appPayRequest callbackBlock:^(NSString *resultCode, NSString *resultInfo) {
+             NSDictionary * dict = @{@"resultCode":resultCode,@"resultInfo":resultInfo};
+             NSData * data = [NSJSONSerialization dataWithJSONObject:dict options:NSJSONWritingPrettyPrinted error:nil];
+             NSString *jsonStr = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+             resolve(jsonStr);
+         }];
 }
 
 
