@@ -49,8 +49,8 @@ import {Unionpay, UnionpayEmitter, UNIONPAY_MODAL_PRODUCTION, UNIONPAY_MODAL_DEV
 | Method                                                            | Return Type         |  iOS | Android |
 | ----------------------------------------------------------------- | ------------------- | :--: | :-----: |
 | [startPay(tn: string, mode: string)](#startpaytn-string-mode-string)                                   | `void`   |  ✅  |   ✅    |
-| [payAliPayMiniPro(appPayRequest: string)](#startpaytn-string-mode-string)                                   | `void`   |  ❌  |   ✅    |
-| [payWX(appPayRequest: string)](#startpaytn-string-mode-string)                                   | `void`   |  ❌  |   ✅    |
+| [payAliPayMiniPro(appPayRequest: string)](#startpaytn-string-mode-string)                                   | `void`   |  ✅  |   ✅    |
+| [payWX(appPayRequest: string)](#startpaytn-string-mode-string)                                   | `void`   |  ✅  |   ✅    |
 | [startSEPay(tn: string, mode: string, seType: string)](#startsepaytn-string-mode-string-setype-string)                                     | `void`   |  ❌  |   ✅    |
 | [getSEPayInfo()](#getsepayinfo)                       | `Promise<object>`            |  ❌  |   ✅    |
 | [checkWalletInstalled()](#checkwalletinstalled)                       | `Promise<boolean>`            |  ❌  |   ✅    |
