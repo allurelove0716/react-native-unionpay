@@ -55,6 +55,9 @@ public class RCTUnionpayModule extends ReactContextBaseJavaModule implements Act
          * 支付控件返回字符串:success、fail、cancel 分别代表支付成功，支付失败，支付取消
          */
         String str = data.getExtras().getString("pay_result");
+        if(str == null){
+            return;
+        }
         if (str.equalsIgnoreCase("success")) {
             // 如果想对结果数据验签，可使用下面这段代码，但建议不验签，直接去商户后台查询交易结果
             // result_data结构见c）result_data参数说明
