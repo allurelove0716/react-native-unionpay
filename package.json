@@ -1,7 +1,7 @@
 {
-  "name": "react-native-china-unionpay",
+  "name": "react-native-unionpay",
   "version": "1.0.0",
-  "description": "react-native-china-unionpay",
+  "description": "react-native-unionpay",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,7 +10,7 @@
     "react",
     "native",
     "react-native",
-    "react-native-china-unionpay",
+    "react-native-unionpay",
     "china unionpay",
     "unionpay",
     "china",
